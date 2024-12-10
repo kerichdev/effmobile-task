@@ -1,6 +1,6 @@
-#/bin/bash
+#!/usr/bin/env bash
 
-PROCESS = "alacritty"
+PROCESS="alacritty"
 
 # логирование
 function LOG() {
