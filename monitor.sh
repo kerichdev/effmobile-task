@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PROCESS="alacritty"
+PROCESS="test"
 
 # логирование
 function LOG() {
