@@ -1,0 +1,11 @@
+[Unit]
+Description=Test service monitor
+
+[Service]
+Type=oneshot
+ExecStart=/bin/monitor.sh
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
