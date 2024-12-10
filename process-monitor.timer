@@ -1,0 +1,10 @@
+[Unit]
+Description=Test service monitor timer
+Requrires=process-monitor.service
+
+[Timer]
+Unit=process-monitor.service
+OnCalendar=*-*-* *:*:00
+
+[Install]
+WantedBy=timers.target
